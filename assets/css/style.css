@@ -1,9 +1,59 @@
+/* #region Common */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+/* #endregion Common */
+
+/* #region utilities */
+
+.d-flex {
+    display: flex;
+}
+
+/* #endregion utilities */
+
+/* #region Debug */
+
+.debug #app-top {
+    background-color: lightskyblue;
+    height: calc(100vh - 90px);
+}
+
+.debug #app-bottom {
+    background-color: plum;
+}
+
+.debug #sidebar_sx {
+    background-color: lightgreen;
+    height: 100%;
+    width: 225px;
+}
+
+.debug #app_main {
+    background-color: lightsalmon;
+    height: 100%;
+}
+
+
+
+/* #endregion Debug */
+
+/*** Desktop First ***/
+
+/* #region #page-top */
+
+#page-top {
+    height: calc(100vh - 90px);
 }
