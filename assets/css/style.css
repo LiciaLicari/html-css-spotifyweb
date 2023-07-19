@@ -61,6 +61,10 @@ html {
     background-color: lightsalmon;
     height: 100%;
 }
+.debug [class^="col-"] {
+    background-color: white;
+
+}
 
 .debug #upgrade {
     background-color: yellow;
@@ -152,7 +156,10 @@ html {
 
 @media screen and (max-width: 768px) {
 
-    
+    .col-md-6 {
+        width: calc(100% / 12 * 6);
+        /*o anche width 50%?*/
+    }
 
 }
 
@@ -161,6 +168,10 @@ html {
 /* #region mobile */
 
 @media screen and (max-width: 475px) {
+
+    .col-sm-12 {
+        width: 100%;
+    }
 
   
 
