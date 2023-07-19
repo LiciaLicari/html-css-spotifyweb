@@ -135,3 +135,35 @@ html {
 #app_bottom {
     height: 90px;
 }
+
+/* #region laptop */
+
+@media screen and (max-width: 1200px) {
+
+    .col-lg-3 {
+        width: calc(100% / 12 * 3);
+    }
+
+}
+
+/* #endregion laptop */
+
+/* #region tablet */
+
+@media screen and (max-width: 768px) {
+
+    
+
+}
+
+/* #endregion tablet */
+
+/* #region mobile */
+
+@media screen and (max-width: 475px) {
+
+  
+
+}
+
+/* #endregion mobile */
