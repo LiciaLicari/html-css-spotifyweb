@@ -22,6 +22,18 @@ html {
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
 /* #endregion utilities */
 
 /* #region Debug */
@@ -35,15 +47,35 @@ html {
     background-color: plum;
 }
 
-.debug #sidebar_sx {
+.debug #sidebar {
     background-color: lightgreen;
     height: 100%;
     width: 225px;
 }
 
-.debug #app_main {
+.debug #sideb_menu {
+
+}
+
+.debug #app_top_main {
     background-color: lightsalmon;
     height: 100%;
+}
+
+.debug #upgrade {
+    background-color: yellow;
+    height: 50px;
+}
+
+.debug #upgrade .btn {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+}
+
+.debug #app_bottom {
+    background-color: hotpink;
+    height: 90px;
 }
 
 
@@ -52,8 +84,54 @@ html {
 
 /*** Desktop First ***/
 
-/* #region #page-top */
 
-#page-top {
+
+#filter .container {
+    width: 55%;
+    max-width: 650px;
+    margin: auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+    padding: 1rem;
+}
+
+/* #region #app-top */
+
+#app-top {
     height: calc(100vh - 90px);
+}
+
+#sidebar {
+    width: 225px;
+}
+
+#app_main {
+    max-height: calc(100vh - 90px);
+    width: calc(100vw - 225px);
+}
+
+#upgrade {
+    
+}
+
+#upgrade .btn {
+    display: inline-block;
+    margin: 10px;
+
+} 
+
+
+
+/* #region #app-bottom */
+
+#app_bottom {
+    height: 90px;
 }
