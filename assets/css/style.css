@@ -52,6 +52,15 @@ html {
     text-align: center;
 }
 
+h4 {
+    color: var(--sptf-white);
+}
+
+ h5 {
+    color: var(--sptf-dark-soft);
+}
+
+
 /* #endregion utilities */
 
 /* #region Debug */
@@ -136,6 +145,7 @@ html {
     font-size: 0.9rem;
     font-weight: 600;
 }
+
 
 .row {
     display: flex;
