@@ -157,20 +157,42 @@ html {
 }
 
 #recently_played h2,
-#recently_played h4 {
+#recently_played h4,
+#created_for h2,
+#created_for h4,
+#most_popular h2,
+#most_popular h4 {
     color: var(--sptf-white);
 } 
-#recently_played h2{
+#recently_played h2,
+#created_for h2,
+#created_for h5, 
+#most_popular h2,
+#most_popular h5 {
     padding: 1.1rem;
 }
 
-#recently_played h4 {
+#recently_played h4,
+#created_for h4,
+#most_popular h4 {
     line-height: 1rem;
     padding-top: 1rem;
 }
-#recently_played h5 {
+#recently_played h5,
+#created_for h5,
+#most_popular h5 {
     color: var(--sptf-dark-soft);
     padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+#created_for, 
+#most_popular {
+    padding: 2rem 0;
+} 
+
+#most_popular img {
+    border-radius: 50%;
 }
 
 /* #region #app-top */
