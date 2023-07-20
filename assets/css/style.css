@@ -181,16 +181,18 @@ html {
 
 #sidebar {
     width: 230px;
-    height: 100%;
+    max-height: calc(100vh - 90px);
     background-color: var(--sptf-black);
 }
 
 #app_main {
     max-height: calc(100vh - 90px);
-    width: calc(100vw - 225px);
+    width: calc(100vw - 230px);
+    overflow: auto;
     background-color: var(--sptf-primary);
     padding: 2rem 0;
 }
+
 
 #upgrade {
     
