@@ -26,12 +26,20 @@ html {
     flex-wrap: wrap;
 }
 
+.img-fluid {
+    max-width: 100%;
+}
+
 .justify-end {
     justify-content: end;
 }
 
 .justify-content-evenly {
     justify-content: space-evenly;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* #endregion utilities */
@@ -54,7 +62,8 @@ html {
 }
 
 .debug #sideb_menu {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .debug #app_main {
