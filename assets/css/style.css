@@ -52,6 +52,10 @@ html {
     text-align: center;
 }
 
+.f-column{
+    flex-direction: column;
+}
+
 
 
 
