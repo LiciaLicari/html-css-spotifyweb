@@ -199,30 +199,37 @@ html {
     border-radius: 50%;
 }
 
+#sidebar {
+    width: 230px;
+    max-height: calc(100vh - 90px);
+    background-color: var(--sptf-black);
+    color: var(--sptf-white);
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: var(--sptf-dark-soft);
+}
+
+#sidebar span, 
+#sidebar h4 {
+    color: var(--sptf-dark-soft);
+}
+
 /* #region #app-top */
 
 #app-top {
     height: calc(100vh - 90px);
 }
 
-#sidebar {
-    width: 230px;
-    max-height: calc(100vh - 90px);
-    background-color: var(--sptf-black);
-}
-
 #app_main {
     max-height: calc(100vh - 90px);
-    width: calc(100vw - 230px);
+    width: calc(100% - 230px);
     overflow: auto;
     background-color: var(--sptf-primary);
     padding: 2rem 0;
 }
 
-
-#upgrade {
-    
-}
 
 #upgrade .btn {
     display: inline-block;
