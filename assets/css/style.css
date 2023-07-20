@@ -121,6 +121,10 @@ html {
     height: 100vh;
 }
 
+#filter {
+    margin: 2rem 0;
+}
+
 #filter .container {
     width: 55%;
     max-width: 650px;
@@ -132,7 +136,7 @@ html {
     color: var(--sptf-dark-soft);
     padding: .5rem ;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 600;
 }
 
@@ -156,8 +160,17 @@ html {
 #recently_played h4 {
     color: var(--sptf-white);
 } 
+#recently_played h2{
+    padding: 1.1rem;
+}
+
+#recently_played h4 {
+    line-height: 1rem;
+    padding-top: 1rem;
+}
 #recently_played h5 {
     color: var(--sptf-dark-soft);
+    padding-top: 0.5rem;
 }
 
 /* #region #app-top */
