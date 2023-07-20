@@ -206,15 +206,31 @@ html {
     color: var(--sptf-white);
 }
 
+#sidebar .logo {
+    max-width: 60%;
+    padding: 1rem;
+}
+
 #sidebar a {
     text-decoration: none;
+    font-weight: bolder;
     color: var(--sptf-dark-soft);
+    display: flex;
+    align-items: center;
+    margin: .25rem 0;
+    padding-left: 1rem;
 }
+
+#sidebar .menu img {
+    width: 30px;
+}
+
 
 #sidebar span, 
 #sidebar h4 {
     color: var(--sptf-dark-soft);
 }
+
 
 /* #region #app-top */
 
