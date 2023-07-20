@@ -52,13 +52,7 @@ html {
     text-align: center;
 }
 
-h4 {
-    color: var(--sptf-white);
-}
 
- h5 {
-    color: var(--sptf-dark-soft);
-}
 
 
 /* #endregion utilities */
@@ -156,6 +150,14 @@ h4 {
 .col-2 img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
+}
+
+#recently_played h2,
+#recently_played h4 {
+    color: var(--sptf-white);
+} 
+#recently_played h5 {
+    color: var(--sptf-dark-soft);
 }
 
 /* #region #app-top */
