@@ -221,15 +221,53 @@ html {
     padding-left: 1rem;
 }
 
+
 #sidebar .menu img {
     width: 30px;
 }
 
+#sidebar .menu a.call_to_action:first-child {
+    border-left: 2px solid var(--sptf-success);
+}
+
+#sidebar h4 {
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#sidebar .playlist {
+    color: white;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+#sidebar .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    aspect-ratio: 1 / 1;
+    background-color: var(--sptf-light);
+    color: black
+}
+
+#sidebar .playlist .box .fa-plus {
+    display: block;
+}
 
 #sidebar span, 
 #sidebar h4 {
     color: var(--sptf-dark-soft);
 }
+
+
+
+
+
+
+
 
 
 /* #region #app-top */
