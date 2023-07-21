@@ -67,6 +67,8 @@ html {
 
 
 
+
+
 /* #endregion utilities */
 
 /* #region Debug */
@@ -129,9 +131,6 @@ html {
 
 /*** Desktop First ***/
 
-.wrapper {
-    height: 100vh;
-}
 
 #filter {
     margin: 2rem 0;
@@ -320,41 +319,6 @@ html {
     margin-left: .5rem;
 }
 
-#page_bottom .card {
-    height: 100%;
-}
-
-#page_bottom .song {
-    color: var(--sptf-dark-soft);
-    gap: 1rem;
-}
-#page_bottom .artist {
-    color: var(--sptf-white);
-    gap: 1rem;
-}
-
-#page_bottom [class^="col-"] {
-    padding: 0.8rem;
-}
-
-#page_bottom .song_details .artist {
-    color: var(--sptf-dark-soft);
-    font-weight: bold;
-}
-
-#page_bottom .song_details .title {
-    font-size: .8rem;
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
 
 
 /* #region #app-top */
@@ -381,7 +345,7 @@ html {
 #upgrade .btn {
     display: inline-block;
     margin: 10px;
-
+    
 } 
 
 
@@ -394,14 +358,47 @@ html {
     z-index: 1;
 }
 
+#app_bottom .card {
+    height: 100%;
+}
+
+#app_bottom .song {
+    color: var(--sptf-dark-soft);
+    gap: 1rem;
+}
+#pappbottom .artist {
+    color: var(--sptf-white);
+    gap: 1rem;
+}
+
+#app_bottom [class^="col-"] {
+    padding: 0.8rem;
+}
+
+#app_bottom .song_details .artist {
+    color: var(--sptf-white);
+    font-weight: bold;
+}
+
+#app_bottom .song_details .title {
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+#app_bottom .add_to {
+    gap: 1rem;
+}
+
+/* #endregion #app-bottom */
+
 /* #region laptop */
 
 @media screen and (max-width: 1200px) {
-
+    
     .col-lg-3 {
         width: calc(100% / 12 * 3);
     }
-
+    
 }
 
 /* #endregion laptop */
