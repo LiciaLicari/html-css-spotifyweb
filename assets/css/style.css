@@ -32,6 +32,10 @@ html {
     display: flex;
 }
 
+.f-column {
+    flex-direction: column;
+}
+
 .flex-wrap {
     flex-wrap: wrap;
 }
