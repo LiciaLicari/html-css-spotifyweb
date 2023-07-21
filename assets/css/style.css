@@ -51,6 +51,9 @@ html {
 .justify-content-between {
     justify-content: space-between;
 }
+.justify-content-center {
+    justify-content: center;
+}
 
 .align-center {
     align-items: center;
@@ -236,7 +239,7 @@ html {
     color: var(--sptf-dark-soft);
     display: flex;
     align-items: center;
-    margin: .25rem 0;
+    margin: 0.25rem 0;
     padding-left: 1rem;
 }
 
@@ -292,11 +295,11 @@ html {
 #sidebar .bottom .install_link {
     border-bottom: 1px solid var(--sptf-light);
     color: var(--sptf-dark-soft);
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
 }
 
 #sidebar .bottom .install_link img {
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     filter: brightness(50%) 
 }
 
@@ -307,7 +310,7 @@ html {
 
 #sidebar .bottom .user .box {
     border-radius: 50%;
-    padding: .25rem;
+    padding: 0.25rem;
     background-color: var(--sptf-dark-soft);
 }
 
@@ -316,7 +319,7 @@ html {
 }
 
 #sidebar .bottom .user span {
-    margin-left: .5rem;
+    margin-left: 0.5rem;
 }
 
 
@@ -338,7 +341,7 @@ html {
     background-color: rgba(0, 0, 0, 0.413);
     position: sticky;
     top: 0;
-    padding: 1rem .5rem;
+    padding: 1rem 0.5rem;
 }
 
 
@@ -362,11 +365,15 @@ html {
     height: 100%;
 }
 
+#app_bottom .player {
+    gap: 1rem;
+}
+
 #app_bottom .song {
     color: var(--sptf-dark-soft);
     gap: 1rem;
 }
-#pappbottom .artist {
+#app_bottom .artist {
     color: var(--sptf-white);
     gap: 1rem;
 }
@@ -381,12 +388,50 @@ html {
 }
 
 #app_bottom .song_details .title {
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
 #app_bottom .add_to {
     gap: 1rem;
+}
+
+#app_bottom .loading {
+    gap: 0.5rem;
+    color: var(--sptf-light);
+}
+
+#app_bottom .song_span_bar {
+    width: 80%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--sptf-dark-soft);
+}
+
+#app_bottom .progress_bar {
+    width: 25%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--sptf-light);
+}
+
+#app_bottom .audio-video {
+    color: var(--sptf-white);
+    gap: 1rem;
+}
+
+#app_bottom .audio-video .volume_bar {
+    width: 25%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--sptf-dark-soft);
+}
+
+#app_bottom .audio-video .volume_span {
+    width: 25%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--sptf-light);
 }
 
 /* #endregion #app-bottom */
