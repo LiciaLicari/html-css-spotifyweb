@@ -168,6 +168,18 @@ html {
     object-fit: cover;
 }
 
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--sptf-white);
+    border-radius: 15rem;
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    text-transform: uppercase;
+    font-size: 0.6rem;
+}
+
 #recently_played h2,
 #recently_played h4,
 #created_for h2,
@@ -327,7 +339,13 @@ html {
     width: calc(100% - 230px);
     overflow: auto;
     background-color: var(--sptf-primary);
-    padding: 2rem 0;
+}
+
+#upgrade {
+    background-color: rgba(0, 0, 0, 0.413);
+    position: sticky;
+    top: 0;
+    padding: 1rem .5rem;
 }
 
 
