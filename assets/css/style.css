@@ -63,9 +63,7 @@ html {
     text-align: center;
 }
 
-.f-column{
-    flex-direction: column;
-}
+
 
 
 
@@ -401,6 +399,12 @@ html {
     gap: 1rem;
 }
 
+#app_bottom .player_settings {
+    color: var(--sptf-white);
+    margin: 0.5rem;
+    gap: 1rem;
+}
+
 #app_bottom .loading {
     gap: 0.5rem;
     color: var(--sptf-light);
@@ -420,24 +424,25 @@ html {
     background-color: var(--sptf-light);
 }
 
-#app_bottom .audio-video {
+#app_bottom .audio_video {
     color: var(--sptf-white);
     gap: 1rem;
 }
 
-#app_bottom .audio-video .volume_bar {
+#app_bottom .audio_video .volume_bar {
     width: 25%;
     height: 4px;
     border-radius: 2px;
     background-color: var(--sptf-dark-soft);
 }
 
-#app_bottom .audio-video .volume_span {
+#app_bottom .audio_video .volume_span {
     width: 25%;
     height: 4px;
     border-radius: 2px;
     background-color: var(--sptf-light);
 }
+
 
 /* #endregion #app-bottom */
 
