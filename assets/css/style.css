@@ -355,6 +355,10 @@ html {
 
 } 
 
+#app_bottom {
+    background-color: var(--sptf-dark);
+}
+
 
 
 /* #region #app-bottom */
@@ -395,6 +399,10 @@ html {
 
     .col-sm-12 {
         width: 100%;
+    }
+
+    #sidebar {
+        width: 50px;
     }
 
   
