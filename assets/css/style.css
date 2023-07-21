@@ -320,6 +320,35 @@ html {
     margin-left: .5rem;
 }
 
+#page_bottom .card {
+    height: 100%;
+}
+
+#page_bottom .song {
+    color: var(--sptf-dark-soft);
+    gap: 1rem;
+}
+#page_bottom .artist {
+    color: var(--sptf-white);
+    gap: 1rem;
+}
+
+#page_bottom [class^="col-"] {
+    padding: 0.8rem;
+}
+
+#page_bottom .song_details .artist {
+    color: var(--sptf-dark-soft);
+    font-weight: bold;
+}
+
+#page_bottom .song_details .title {
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+
+
 
 
 
@@ -355,17 +384,14 @@ html {
 
 } 
 
-#app_bottom {
-    background-color: var(--sptf-dark);
-}
-
-
 
 /* #region #app-bottom */
 
 #app_bottom {
     height: 90px;
     background-color: var(--sptf-dark);
+    position: relative;
+    z-index: 1;
 }
 
 /* #region laptop */
