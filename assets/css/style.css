@@ -471,6 +471,10 @@ html {
         /*o anche width 50%?*/
     }
 
+    #app_bottom .add_to {
+        flex-direction: column;
+    }
+
 }
 
 /* #endregion tablet */
