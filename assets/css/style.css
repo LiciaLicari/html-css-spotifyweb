@@ -134,6 +134,13 @@ html {
 
 /* #endregion Debug */
 
+
+.p-05 {
+padding-left: 0.5rem;
+
+}
+
+
 /*** Desktop First ***/
 
 
@@ -203,6 +210,9 @@ html {
 }
 
 
+#sidebar span:hover {
+    color: var(--sptf-white);
+}
 
 
 #recently_played h2,
@@ -276,6 +286,10 @@ html {
     border-left: 2px solid var(--sptf-success);
 }
 
+#sidebar .menu span {
+    padding-left: 0.5rem;
+}
+
 #sidebar h4 {
     padding-top: 1.5rem;
     padding-left: 1rem;
@@ -302,10 +316,12 @@ html {
 #sidebar .playlist .box .fa-plus {
     display: block;
 }
-
-#sidebar .playlist span {
-    padding-left: 0.5rem;
-} 
+#sidebar .playlist-list h5 {
+    text-transform: uppercase;
+    color: var(--sptf-white);
+    padding-left: 1rem;
+    margin: 1.5rem 0 0.8rem;
+}
 
 #sidebar span, 
 #sidebar h4 {
@@ -344,6 +360,7 @@ html {
 
 #sidebar .bottom .user span {
     margin-left: 0.5rem;
+    color: var(--sptf-white);
 }
 
 
@@ -374,6 +391,10 @@ html {
     margin: 10px;
     
 } 
+
+#upgrade .btn:hover {
+    transform: scale(1.2);
+}
 
 
 /* #region #app-bottom */
@@ -498,6 +519,10 @@ html {
 
     .sm-logo {
         display: none;
+    }
+
+    #sidebar .menu img {
+        width: 25px;
     }
 
 }
