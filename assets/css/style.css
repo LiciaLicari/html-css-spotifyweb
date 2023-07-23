@@ -378,6 +378,34 @@ padding-left: 0.5rem;
     background-color: var(--sptf-primary);
 }
 
+#recently_played .card .wrapper {
+    position: relative;
+} 
+
+.transparent {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.484);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.transparent i {
+    color: var(--sptf-white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.transparent:hover {
+    display: block;
+}
+
+
 #upgrade {
     background-color: rgba(0, 0, 0, 0.413);
     position: sticky;
@@ -395,6 +423,8 @@ padding-left: 0.5rem;
 #upgrade .btn:hover {
     transform: scale(1.2);
 }
+
+
 
 
 /* #region #app-bottom */
