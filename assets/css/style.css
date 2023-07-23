@@ -483,13 +483,18 @@ html {
 
 @media screen and (max-width: 475px) {
 
+    #app_main {
+        width: calc(100% - 50px);
+    }
+    
+    #sidebar {
+        width: 50px;
+    }
+    
     .col-sm-12 {
         width: 100%;
     }
 
-    #sidebar {
-        width: 50px;
-    }
 
   
 
