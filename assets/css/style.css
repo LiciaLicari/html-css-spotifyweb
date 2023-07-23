@@ -142,8 +142,7 @@ html {
 }
 
 #filter .container {
-    width: 55%;
-    max-width: 650px;
+    justify-content: center;
     margin: auto;
 }
 
@@ -188,6 +187,23 @@ html {
     text-transform: uppercase;
     font-size: 0.6rem;
 }
+
+.sm-logo {
+    width: 30px;
+    display: none;
+}
+
+.b-bottom-active::after {
+    content: "";
+    background-color: var(--sptf-success);
+    height: 2px;
+    width: 40%;
+    display: flex;
+    margin: 5px auto;
+}
+
+
+
 
 #recently_played h2,
 #recently_played h4,
@@ -239,6 +255,7 @@ html {
     max-width: 60%;
     padding: 1rem;
 }
+
 
 #sidebar a {
     text-decoration: none;
@@ -457,6 +474,10 @@ html {
     .col-lg-3 {
         width: calc(100% / 12 * 3);
     }
+
+    .sm-logo {
+        display: none;
+    }
     
 }
 
@@ -475,6 +496,10 @@ html {
         flex-direction: column;
     }
 
+    .sm-logo {
+        display: none;
+    }
+
 }
 
 /* #endregion tablet */
@@ -490,8 +515,26 @@ html {
     #sidebar {
         width: 50px;
     }
-    
+
     .col-sm-12 {
+        width: 100%;
+    }
+  /* ho scelto di mettere una colonna nello screen per mobile */
+
+
+    .col_side_bar {
+        width: 50px;
+        padding: 0;
+        overflow: auto;
+    }
+
+    
+    #sidebar .bg-logo {
+        display: none;
+    }
+    
+    .sm-logo {
+        display: block;
         width: 100%;
     }
 
